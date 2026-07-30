@@ -47,7 +47,7 @@ AI-assisted recruitment platform using Groq. Monorepo with React 19 frontend and
 CLI toolkit for optimizing sites against AI search engines (ChatGPT, Perplexity, Gemini). Python + Bash. My first real open-source release.
 
 #### [Egg AI Readiness Diagnostic](https://github.com/ezefernandezyf/egg-ai-readiness-diagnostic)
-AI maturity diagnostic MVP for Egg.live. Interactive quiz, Groq AI recommendations, PDF export.
+AI maturity diagnostic MVP conceived for Egg.live. Interactive quiz, Groq AI recommendations, PDF export.
 [🔗 Live](https://egg-ai-readiness-diagnostic.vercel.app)
 
 #### [Movie Dashboard](https://github.com/ezefernandezyf/movie-management-dashboard)
@@ -101,7 +101,7 @@ Proyectos
 - **EchoLog** - SaaS multi-tenant para feedback de usuarios. React 19 + Express + PostgreSQL.
 - **Nexus Talent** - Plataforma de reclutamiento con Groq AI. Monorepo, Express + Prisma.
 - **GEO SEO OpenCode** - CLI tool para optimizar sitios en buscadores IA. Python + Bash. Open source.
-- **Egg AI Readiness Diagnostic** - MVP de diagnostico de madurez IA para Egg.live. Quiz interactivo, Groq AI, PDF.
+- **Egg AI Readiness Diagnostic** - MVP de diagnostico de madurez IA pensado en Egg.live. Quiz interactivo, Groq AI, PDF.
 - **Movie Dashboard** - CRUD de peliculas con Supabase y TanStack Query.
 - **ChefcitoIA** - Generador de recetas por IA. Ingredientes in, receta out.
 - **CineLab** - Buscador de peliculas con TMDB API. React + TypeScript.
