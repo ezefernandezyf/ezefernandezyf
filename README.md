@@ -101,7 +101,7 @@ Proyectos
 - **EchoLog** - SaaS multi-tenant para feedback de usuarios. React 19 + Express + PostgreSQL.
 - **Nexus Talent** - Plataforma de reclutamiento con Groq AI. Monorepo, Express + Prisma.
 - **GEO SEO OpenCode** - CLI tool para optimizar sitios en buscadores IA. Python + Bash. Open source.
-- **Egg AI Readiness Diagnostic** - MVP de diagnostico de madurez IA pensado en Egg.live. Quiz interactivo, Groq AI, PDF.
+- **Egg AI Readiness Diagnostic** - MVP de diagnostico de madurez IA pensado para Egg.live. Quiz interactivo, Groq AI, PDF.
 - **Movie Dashboard** - CRUD de peliculas con Supabase y TanStack Query.
 - **ChefcitoIA** - Generador de recetas por IA. Ingredientes in, receta out.
 - **CineLab** - Buscador de peliculas con TMDB API. React + TypeScript.
