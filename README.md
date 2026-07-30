@@ -39,6 +39,10 @@ I'm looking for my first formal role in tech. Meanwhile, I build full projects t
 Multi-tenant SaaS that collects user feedback. Fullstack: React 19, Express, Prisma, PostgreSQL.
 [🔗 Live](https://echolog-web.vercel.app)
 
+#### [Egg AI Readiness Diagnostic](https://github.com/ezefernandezyf/egg-ai-readiness-diagnostic)
+AI maturity diagnostic MVP for Egg.live. Interactive quiz, Groq AI recommendations, PDF export.
+[🔗 Live](https://egg-ai-readiness-diagnostic.vercel.app)
+
 #### [Nexus Talent](https://github.com/ezefernandezyf/nexus-talent)
 AI-assisted recruitment platform using Groq. Monorepo with React 19 frontend and Express + Prisma backend.
 [🔗 Live](https://nexustalent.vercel.app)
@@ -95,6 +99,7 @@ Estoy buscando mi primer laburo formal en sistemas. Mientras tanto, construyo pr
 Proyectos
 
 - **EchoLog** - SaaS multi-tenant para feedback de usuarios. React 19 + Express + PostgreSQL.
+- **Egg AI Readiness Diagnostic** - MVP de diagnostico de madurez IA para Egg.live. Quiz interactivo, Groq AI, PDF.
 - **Nexus Talent** - Plataforma de reclutamiento con Groq AI. Monorepo, Express + Prisma.
 - **GEO SEO OpenCode** - CLI tool para optimizar sitios en buscadores IA. Python + Bash. Open source.
 - **Movie Dashboard** - CRUD de peliculas con Supabase y TanStack Query.
