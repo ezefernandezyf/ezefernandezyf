@@ -11,6 +11,7 @@ I'm looking for my first formal role in tech. Meanwhile, I build full projects t
 ### 🛠️ Stack
 
 **Frontend**
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
@@ -34,6 +35,10 @@ I'm looking for my first formal role in tech. Meanwhile, I build full projects t
 ---
 
 ### 📌 Projects
+
+#### [Relevy](https://github.com/ezefernandezyf/relevy)
+GEO/SEO auditing micro-SaaS. Next.js 15 (App Router + Server Actions), Prisma 7, PostgreSQL (Supabase), NextAuth, Zod.
+[🔗 Live](https://relevy.app)
 
 #### [EchoLog](https://github.com/ezefernandezyf/echolog)
 Multi-tenant SaaS that collects user feedback. Fullstack: React 19, Express, Prisma, PostgreSQL.
@@ -98,6 +103,7 @@ Estoy buscando mi primer laburo formal en sistemas. Mientras tanto, construyo pr
 
 Proyectos
 
+- **Relevy** - Micro-SaaS de auditoría GEO/SEO. Next.js 15 (App Router + Server Actions), Prisma 7, PostgreSQL, NextAuth.
 - **EchoLog** - SaaS multi-tenant para feedback de usuarios. React 19 + Express + PostgreSQL.
 - **Nexus Talent** - Plataforma de reclutamiento con Groq AI. Monorepo, Express + Prisma.
 - **GEO SEO OpenCode** - CLI tool para optimizar sitios en buscadores IA. Python + Bash. Open source.
