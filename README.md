@@ -86,7 +86,7 @@ Movie search using the TMDB API. React + TypeScript, no fluff.
 
 ### 🧘 Off the keyboard
 
-- 🏋️ Gym 4x a week. Keeps me sane.
+- 🏋️ Gym 3x a week. Keeps me sane.
 - 📖 Always researching something on my own. A new tech, a concept I don't fully get yet, or how something I use daily actually works.
 - ⚽ Football. Playing it, watching it, arguing about it. Argentine thing.
 - ☕ Morning coffee + clean code. Don't need much else.
@@ -99,7 +99,7 @@ Hola, soy Eze 👋
 
 Full Stack Developer de Capital Federal, Argentina. Codeo en TypeScript, React y Node.js. Tambien Python, Bash, o lo que haga falta.
 
-Estoy buscando mi primer laburo formal en sistemas. Mientras tanto, construyo proyectos enteros para demostrar que puedo: SaaS, APIs, CLIs, dashboards. Todo con tipos fuertes, tests, y arquitectura que no duela.
+Estoy buscando mi primer trabajo formal en sistemas. Mientras tanto, construyo proyectos enteros para demostrar que puedo hacer: SaaS, APIs, CLIs, dashboards. Todo con tipos fuertes, tests, y arquitectura que no duela.
 
 Proyectos
 
