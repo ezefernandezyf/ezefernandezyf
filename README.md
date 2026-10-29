@@ -1,116 +1,58 @@
 ### Hi, I'm Eze 👋
 
-[🇦🇷](#espanol) - *Full Stack Developer, Buenos Aires*
+Full stack developer based in Buenos Aires. I work with TypeScript, React, Next.js, and Node.js, using Python for automation and scripting. English C2.
 
-I write TypeScript, React, and Node.js. Also Python, Bash, or whatever needs to get done.
+Looking for full stack or frontend roles in Buenos Aires or remote. The three projects below are live and tested, and I also fix bugs in the open source tools I depend on.
 
-I'm looking for my first formal role in tech. Meanwhile, I build full projects to prove what I can do: SaaS apps, APIs, CLIs, dashboards. All with strong types, tests, and architecture that doesn't hurt to maintain.
+### Open Source Contributions
 
----
+Bug fixes merged into open source tools and libraries:
 
-### 🛠️ Stack
+- **[vitest](https://github.com/vitest-dev/vitest/pull/11360)** (17.2k ★): fixed an issue where `vm` pools executed Vite's dependency optimizer over `index.html`, causing unbundlable dependencies to crash the run with `exit 1` while every test passed. Traced it back to the commit that introduced it; its author later approved the fix.
+- **[@fastify/cookie](https://github.com/fastify/fastify-cookie/pull/377)**: `reply.setCookie()` accepted an `encode` option and silently ignored it, so there was no way to customize how the value is encoded. Merged with two maintainer approvals and released in `v11.1.5`.
 
-**Frontend**
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+### Projects
+
+**[Relevy](https://github.com/ezefernandezyf/relevy)** · [relevy.app](https://relevy.app)
+GEO/SEO auditing platform in production. 46,000 lines across 21 sprints, **1,119 tests**, and 4 CI jobs. Built end-to-end: React 19, Next.js 15, Node.js, PostgreSQL.
+
+**[EchoLog](https://github.com/ezefernandezyf/echolog)** · [live demo](https://echolog-web.vercel.app)
+Multi-tenant feedback SaaS built across 18 development phases and ~45 reviewed PRs. React 19, Express, Prisma, PostgreSQL. Tests in three layers, running in CI.
+
+**[Nexus Talent](https://github.com/ezefernandezyf/nexus-talent)** · [live demo](https://nexustalent.vercel.app)
+AI-powered recruiting platform. The model runs server-side and its output is validated with Zod before it reaches the UI, with 502 handling and automatic fallback between Groq and Google. React 19, Express, Prisma. **542 tests.**
+
+**More:** [geo-seo-opencode](https://github.com/ezefernandezyf/geo-seo-opencode) (CLI for AI search engine optimization in Python/Bash) · [egg-ai-readiness-diagnostic](https://github.com/ezefernandezyf/egg-ai-readiness-diagnostic) (AI maturity diagnostic for Egg.live) · [ia-recipe-generator](https://github.com/ezefernandezyf/ia-recipe-generator) · [cinelab-react](https://github.com/ezefernandezyf/cinelab-react).
+
+### Stack
+
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![TanStack Query](https://img.shields.io/badge/TanStack_Query-FF4154?style=flat-square&logo=reactquery&logoColor=white)
-![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white)
-
-**Backend**
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-
-**Testing & Tools**
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
 ![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white)
-![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=flat-square&logo=eslint&logoColor=white)
-![Zod](https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white)
-![Bun](https://img.shields.io/badge/Bun-000000?style=flat-square&logo=bun&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
----
+*Also:* Express, Zod, Tailwind CSS, Docker, GitHub Actions, Git (Feature Branching, PR Code Reviews).
 
-### 📌 Projects
-
-#### [Relevy](https://github.com/ezefernandezyf/relevy)
-GEO/SEO auditing micro-SaaS. Next.js 15 (App Router + Server Actions), Prisma 7, PostgreSQL (Supabase), NextAuth, Zod.
-[🔗 Live](https://relevy.app)
-
-#### [EchoLog](https://github.com/ezefernandezyf/echolog)
-Multi-tenant SaaS that collects user feedback. Fullstack: React 19, Express, Prisma, PostgreSQL.
-[🔗 Live](https://echolog-web.vercel.app)
-
-#### [Nexus Talent](https://github.com/ezefernandezyf/nexus-talent)
-AI-assisted recruitment platform using Groq. Monorepo with React 19 frontend and Express + Prisma backend.
-[🔗 Live](https://nexustalent.vercel.app)
-
-#### [GEO SEO OpenCode](https://github.com/ezefernandezyf/geo-seo-opencode)
-CLI toolkit for optimizing sites against AI search engines (ChatGPT, Perplexity, Gemini). Python + Bash. My first real open-source release.
-
-#### [Egg AI Readiness Diagnostic](https://github.com/ezefernandezyf/egg-ai-readiness-diagnostic)
-AI maturity diagnostic MVP conceived for Egg.live. Interactive quiz, Groq AI recommendations, PDF export.
-[🔗 Live](https://egg-ai-readiness-diagnostic.vercel.app)
-
-#### [Movie Dashboard](https://github.com/ezefernandezyf/movie-management-dashboard)
-Movie CRUD with Supabase, search, filters, and TanStack Query on the frontend.
-[🔗 Live](https://moviesdashboard.vercel.app)
-
-#### [ChefcitoIA](https://github.com/ezefernandezyf/ia-recipe-generator)
-Type ingredients, get a recipe. Straightforward AI wrapper with AbortController for request cancellation.
-[🔗 Live](https://chefcitoia.vercel.app)
-
-#### [CineLab](https://github.com/ezefernandezyf/cinelab-react)
-Movie search using the TMDB API. React + TypeScript, no fluff.
-[🔗 Live](https://cinelab-movies.vercel.app)
-
----
-
-### 📊 GitHub Stats
-
-<div align="center">
-    <img src="https://streak-stats.demolab.com/?user=ezefernandezyf&theme=dark" height="150" alt="streak" />
-</div>
-
----
-
-### 🌐 Links
+### Links
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-ezefernandez.com-8B5CF6?style=flat-square&logo=googlechrome&logoColor=white)](https://ezefernandez.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ezequiel-fernandez-59a21a387/)
 
 ---
 
-### 🧘 Off the keyboard
+### Hola, soy Eze 👋
 
-- 🏋️ Gym 3x a week. Keeps me sane.
-- 📖 Always researching something on my own. A new tech, a concept I don't fully get yet, or how something I use daily actually works.
-- ⚽ Football. Playing it, watching it, arguing about it. Argentine thing.
-- ☕ Morning coffee + clean code. Don't need much else.
+Desarrollador full stack en Buenos Aires. Trabajo con TypeScript, React, Next.js y Node.js, y Python para automatización. Inglés C2.
 
----
+Busco un rol full stack o frontend, en Buenos Aires o remoto. Los tres proyectos de abajo están desplegados y con tests, y también arreglo bugs en las herramientas open source que uso.
 
-<a name="espanol"></a>
+**Contribuciones:** arreglos de bugs mergeados en [vitest](https://github.com/vitest-dev/vitest/pull/11360) (17.2k ★, rastreado hasta el commit que lo introdujo) y en [@fastify/cookie](https://github.com/fastify/fastify-cookie/pull/377) (publicado en v11.1.5).
 
-Hola, soy Eze 👋
+**Proyectos:** [Relevy](https://relevy.app) (auditoría GEO/SEO con 1.119 tests) · [Nexus Talent](https://nexustalent.vercel.app) (reclutamiento con IA y 542 tests) · [EchoLog](https://echolog-web.vercel.app) (SaaS multi-tenant con CI/CD y 3 capas de testing).
 
-Full Stack Developer de Capital Federal, Argentina. Codeo en TypeScript, React y Node.js. Tambien Python, Bash, o lo que haga falta.
-
-Estoy buscando mi primer trabajo formal en sistemas. Mientras tanto, construyo proyectos enteros para demostrar que puedo hacer: SaaS, APIs, CLIs, dashboards. Todo con tipos fuertes, tests, y arquitectura que no duela.
-
-Proyectos
-
-- **Relevy** - Micro-SaaS de auditoría GEO/SEO. Next.js 15 (App Router + Server Actions), Prisma 7, PostgreSQL, NextAuth.
-- **EchoLog** - SaaS multi-tenant para feedback de usuarios. React 19 + Express + PostgreSQL.
-- **Nexus Talent** - Plataforma de reclutamiento con Groq AI. Monorepo, Express + Prisma.
-- **GEO SEO OpenCode** - CLI tool para optimizar sitios en buscadores IA. Python + Bash. Open source.
-- **Egg AI Readiness Diagnostic** - MVP de diagnostico de madurez IA pensado para Egg.live. Quiz interactivo, Groq AI, PDF.
-- **Movie Dashboard** - CRUD de peliculas con Supabase y TanStack Query.
-- **ChefcitoIA** - Generador de recetas por IA. Ingredientes in, receta out.
-- **CineLab** - Buscador de peliculas con TMDB API. React + TypeScript.
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-ezefernandez.com-8B5CF6?style=flat-square&logo=googlechrome&logoColor=white)](https://ezefernandez.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ezequiel-fernandez-59a21a387/)
+[Portfolio](https://ezefernandez.com) · [LinkedIn](https://www.linkedin.com/in/ezequiel-fernandez-59a21a387/)
