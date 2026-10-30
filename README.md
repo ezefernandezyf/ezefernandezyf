@@ -1,4 +1,4 @@
-### Hi, I'm Eze 👋
+### Hi, I'm Eze 
 
 Full stack developer based in Buenos Aires. I work with TypeScript, React, Next.js, and Node.js, using Python for automation and scripting. English C2.
 
@@ -6,9 +6,10 @@ Looking for full stack or frontend roles in Buenos Aires or remote. The three pr
 
 ### Open Source Contributions
 
-Bug fixes merged into open source tools and libraries:
+Three bug fixes merged into open source tools and libraries:
 
 - **[vitest](https://github.com/vitest-dev/vitest/pull/11360)** (17.2k ★): fixed an issue where `vm` pools executed Vite's dependency optimizer over `index.html`, causing unbundlable dependencies to crash the run with `exit 1` while every test passed. Traced it back to the commit that introduced it; its author later approved the fix.
+- **[vitest](https://github.com/vitest-dev/vitest/pull/11781)** (second fix there): the module cache killed the whole run when its directory could not be created, with an error unrelated to the test. The maintainer asked to disable the cache up front instead of catching the error late, and the final design came out smaller than my first version.
 - **[@fastify/cookie](https://github.com/fastify/fastify-cookie/pull/377)**: `reply.setCookie()` accepted an `encode` option and silently ignored it, so there was no way to customize how the value is encoded. Merged with two maintainer approvals and released in `v11.1.5`.
 
 ### Projects
@@ -45,13 +46,13 @@ AI-powered recruiting platform. The model runs server-side and its output is val
 
 ---
 
-### Hola, soy Eze 👋
+### Hola, soy Eze 
 
 Desarrollador full stack en Buenos Aires. Trabajo con TypeScript, React, Next.js y Node.js, y Python para automatización. Inglés C2.
 
 Busco un rol full stack o frontend, en Buenos Aires o remoto. Los tres proyectos de abajo están desplegados y con tests, y también arreglo bugs en las herramientas open source que uso.
 
-**Contribuciones:** arreglos de bugs mergeados en [vitest](https://github.com/vitest-dev/vitest/pull/11360) (17.2k ★, rastreado hasta el commit que lo introdujo) y en [@fastify/cookie](https://github.com/fastify/fastify-cookie/pull/377) (publicado en v11.1.5).
+**Contribuciones:** tres arreglos de bugs mergeados, dos en [vitest](https://github.com/vitest-dev/vitest/pull/11360) (17.2k ★: el optimizador de dependencias, rastreado hasta el commit que lo introdujo, y el cache de módulos) y uno en [@fastify/cookie](https://github.com/fastify/fastify-cookie/pull/377) (publicado en v11.1.5).
 
 **Proyectos:** [Relevy](https://relevy.app) (auditoría GEO/SEO con 1.119 tests) · [Nexus Talent](https://nexustalent.vercel.app) (reclutamiento con IA y 542 tests) · [EchoLog](https://echolog-web.vercel.app) (SaaS multi-tenant con CI/CD y 3 capas de testing).
 
