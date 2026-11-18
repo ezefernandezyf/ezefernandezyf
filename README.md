@@ -1,8 +1,8 @@
 ### Hi, I'm Eze 
 
-Full stack developer based in Buenos Aires. I work with TypeScript, React, Next.js, and Node.js, using Python for automation and scripting. English C2.
+Full stack developer based in Buenos Aires. I work with TypeScript, React, Next.js, and Node.js, and I automate processes with Power Automate and Python. English C2.
 
-Looking for full stack or frontend roles in Buenos Aires or remote. The three projects below are live and tested, and I also fix bugs in the open source tools I depend on.
+Currently a part-time Junior RPA developer at Enta Consulting. I'm open to full stack and frontend work in Buenos Aires or remote. The projects below are live and tested, and I also fix bugs in the open source tools I depend on.
 
 ### Open Source Contributions
 
@@ -48,9 +48,9 @@ AI-powered recruiting platform. The model runs server-side and its output is val
 
 ### Hola, soy Eze 
 
-Desarrollador full stack en Buenos Aires. Trabajo con TypeScript, React, Next.js y Node.js, y Python para automatización. Inglés C2.
+Desarrollador full stack en Buenos Aires. Trabajo con TypeScript, React, Next.js y Node.js, y automatizo procesos con Power Automate y Python. Inglés C2.
 
-Busco un rol full stack o frontend, en Buenos Aires o remoto. Los tres proyectos de abajo están desplegados y con tests, y también arreglo bugs en las herramientas open source que uso.
+Actualmente part-time como desarrollador RPA Junior en Enta Consulting. Estoy abierto a trabajo full stack o frontend, en Buenos Aires o remoto. Los proyectos de abajo están desplegados y con tests, y también arreglo bugs en las herramientas open source que uso.
 
 **Contribuciones:** tres arreglos de bugs mergeados, dos en [vitest](https://github.com/vitest-dev/vitest/pull/11360) (17.2k ★: el optimizador de dependencias, rastreado hasta el commit que lo introdujo, y el cache de módulos) y uno en [@fastify/cookie](https://github.com/fastify/fastify-cookie/pull/377) (publicado en v11.1.5).
 
